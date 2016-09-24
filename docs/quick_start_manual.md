@@ -13,7 +13,7 @@ source mysiteenv/bin/activate
 Once your virtual environment has been activated, install Django and use `django-admin` to create a new project based on the Account Pinax starter project:
 
 ```
-pip install Django==1.8.4
+pip install Django==1.10
 django-admin startproject --template=https://github.com/pinax/pinax-starter-projects/zipball/account mysite -n webpack.config.js
 ```
 
